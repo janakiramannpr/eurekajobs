@@ -1,0 +1,139 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body { padding: 50px; 
+
+
+}
+
+.home{
+  
+  background-image: url(/assets/crane.jpg);
+}
+
+.new{
+  
+  background-image: url(/assets/crane.jpg);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.jumbotron .bg{ 
+min-height: 300px;
+
+  
+  background-size: 2500px 600px;
+    background-repeat: no-repeat;
+     
+    
+}
+
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+ background-image: url(/assets/crane.jpg);
+ background-repeat: no-repeat;
+  width: 2000px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bpad {
+  padding-top: 100px;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*LOGIN CONFIGURATION PAGE*/
+.form-login {
+  max-width: 330px;
+  margin: 100px auto 0;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.form-login h2.form-login-heading {
+  margin: 0;
+  padding: 25px 20px;
+  text-align: center;
+  background: #68dff0;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.login-wrap {
+  padding: 20px;
+}
+.login-wrap .registration {
+  text-align: center;
+}
+.login-social-link {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ruda'), url(http://fonts.gstatic.com/s/ruda/v7/N4_mr3x70COA9kzDvMKkyvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ruda Bold'), local('Ruda-Bold'), url(http://fonts.gstatic.com/s/ruda/v7/ZrgRU1eud8V3nc0zwHrO4ALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Ruda Black'), local('Ruda-Black'), url(http://fonts.gstatic.com/s/ruda/v7/FdSDwT6CeVYl5YBQSmmypwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+
+
+
