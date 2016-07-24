@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.0.0'
+gem 'bootstrap-sass', '3.3.6'
+
+gem 'autoprefixer-rails'
+gem 'bcrypt',         '3.1.11'
 gem 'puma',         '3.4.0'
 gem 'sass-rails',   '5.0.5'
 gem 'uglifier',     '3.0.0'
