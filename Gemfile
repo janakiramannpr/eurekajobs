@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.0.0'
+<<<<<<< HEAD
 gem 'bootstrap-sass', '3.3.6'
 
 gem 'autoprefixer-rails'
 gem 'bcrypt',         '3.1.11'
+=======
+>>>>>>> cbb033bf10b9f921b43ce3b7cad729b40b5c65d3
 gem 'puma',         '3.4.0'
 gem 'sass-rails',   '5.0.5'
 gem 'uglifier',     '3.0.0'
@@ -14,7 +17,11 @@ gem 'turbolinks',   '5.0.0'
 gem 'jbuilder',     '2.4.1'
 
 group :development, :test do
+<<<<<<< HEAD
   gem 'sqlite3', '1.3.11'
+=======
+  gem 'pg', '0.18.4'
+>>>>>>> cbb033bf10b9f921b43ce3b7cad729b40b5c65d3
   gem 'byebug',  '9.0.0', platform: :mri
 end
 
